@@ -19,16 +19,43 @@
             <option value="">Dallas, TX</option>
         </select>
 
-        <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Dropdown
-            </a>
-            <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
-        </li>
+        <div class="col-3 text-end">
+              <div class="user-drop dropdown">
+                <button
+                  class="btn btn-default dropdown-toggle border-0"
+                  type="button"
+                  id="dropdownMenuButton"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  <span
+                    class="fas fa-user-circle text-light fa-3x"
+                    aria-hidden="true"
+                  ></span>
+                </button>
+                <ul
+                  class="dropdown-menu rounded-0 p-0"
+                  aria-labelledby="dropdownMenuButton1"
+                >
+                  <li>
+                    <a
+                      class="dropdown-item text-center bg-primary text-light"
+                      href="#"
+                      >Account</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item text-center" href="#">Bookings</a>
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item text-center bg-primary text-light"
+                      href="#"
+                      >Sign Out</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
     </div>
 </nav>
