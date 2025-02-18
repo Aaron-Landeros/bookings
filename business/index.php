@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -18,8 +17,6 @@
     <title>Document</title>
 </head>
 <body>
-   
-    
     <div class="container-fluid">
         <div class="row flex-nowrap">
             <?php include 'components/header.php' ?>
@@ -34,7 +31,6 @@
         
         <?php include 'components/footer.php' ?>
     </div>
-
 
     <script src="../utilities/js/jquery.js"></script>
     <script src="../utilities/bootstrap/bootstrap.min.js"></script>
