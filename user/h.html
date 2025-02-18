@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en" id="theme-change" data-bs-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="../utilities/bootstrap/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="../utilities/sweetalert2/sweetalert2.min.css"
+    />
+  </head>
+
+  <body class="container d-flex flex-column p-0">
+    <div class="navigation">
+      <nav class="navbar navbar-dark" style="background-color: royalblue">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler border-0"
+            style="background-color: royalblue"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasExample"
+            aria-controls="offcanvasExample"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </nav>
+
+      <div
+        class="offcanvas offcanvas-start text-light"
+        style="
+          width: 80vw;
+          max-width: var(--bs-offcanvas-width);
+          background-color: royalblue;
+        "
+        tabindex="-1"
+        id="offcanvasExample"
+        aria-labelledby="offcanvasExampleLabel"
+      >
+        <div class="offcanvas-header border-bottom border-3">
+          <div>
+            <img
+              class="ms-2 w-75"
+              src="../business/components/img/ENTHEOSPACE.svg"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="offcanvas-body container p-2">
+          <div
+            class="row justify-content-center align-items-center border-bottom border-3"
+          >
+            <div class="col-2 my-3">
+              <i class="fa fa-clock fa-3x"> </i>
+            </div>
+            <div class="col-8 m-3 fs-3">Appointment</div>
+          </div>
+          <div
+            class="row justify-content-center align-items-center border-bottom border-3"
+          >
+            <div class="col-2 my-3">
+              <i class="fa fa-building fa-3x"> </i>
+            </div>
+            <div class="col-8 m-3 fs-3">Profile</div>
+          </div>
+          <div
+            class="row justify-content-center align-items-center border-bottom border-3"
+          >
+            <div class="col-2 my-3">
+              <i class="fa fa-list fa-3x"> </i>
+            </div>
+            <div class="col-8 m-3 fs-3">Services</div>
+          </div>
+          <div
+            class="row justify-content-center align-items-center fixed-bottom"
+          >
+            <div class="col-2 my-3">
+              <i class="fa fa-circle-user fa-3x"> </i>
+            </div>
+            <div class="col-8 m-3 fs-3">John Doe</div>
+          </div>
+        </div>
+      </div>
+    </div>
+<div class="" id="main-content">
+
+</div>
+
+    <div class="" id="modal-placeholder">
+
+        <div
+          class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-fullscreen"
+          role="document"
+        >
+          <div class="modal-content">
+           
+           <div class="modal-header row p-3 text-center">
+              <div class="col-2" data-bs-dismiss="modal" aria-label="Close">
+                Cancel
+              </div>
+              <div class="col-8 display-5 fw-bold">Edit Service</div>
+              <div class="col-2">Update</div>
+            </div>
+            <div class="modal-body">
+              <form action="" method="post"></form>
+              <h5 class="fw-bold">Service Name</h5>
+              <input type="text" class=" mb-4 input-group input-group-sm border-0" disabled></input>
+
+              <h5 class="fw-bold">Service Description</h5>
+              <textarea type="" class=" mb-4 form-control border-0 bg-white" rows="3" disabled></textarea>
+
+              <h5 class="fw-bold">Service Cost</h5>
+              <input type="text" class="mb-4  input-group input-group-sm border-0" placeholder="10.00"disabled></input>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</div>
+
+
+    <script src="../utilities/js/jquery.js"></script>
+    <script src="../utilities//bootstrap/bootstrap.min.js"></script>
+    <script src="../utilities/fontawesome/all.min.js"></script>
+    <script src="../utilities/sweetalert2/sweetalert2.min.js"></script>
+    <script src="../utilities/evo-calendar/js/evo-calendar.js"></script>
+    <script src="../utilities/Chart.js/chart.umd.js"></script>
+    <script src="../utilities/Print.js/print.min.js"></script>
+
+    <script src="./js/index_event_controller.js"></script>
+    <script src="../business/Appointments/js/appointment_event_controller.js"></script>
+    <script src="../business/Serv/js/service_event_controller.js"></script>
+    <script src="../business/Profile/js/profile_event_controller.js"></script>
+</body>
+</html>
