@@ -13,12 +13,12 @@
 <body class="container d-flex flex-column p-0">
     <div class="">
     <?php
-        include "../business/components/navigation_bar_view.php"
+        include "components/navigation_bar_view.php"
     ?>
     </div>
 <div class="" id="main-content">
     <?php
-        include "../business/Appointments/Appointment_index_view.php"
+        include "Appointments/Appointment_index_view.php"
     ?>
 </div>
 
@@ -37,8 +37,8 @@
     <script src="../utilities/Print.js/print.min.js"></script>
 
     <script src="./js/index_event_controller.js"></script>
-    <script src="../business/Appointments/js/appointment_event_controller.js"></script>
-    <script src="../business/Serv/js/service_event_controller.js"></script>
-    <script src="../business/Profile/js/profile_event_controller.js"></script>
+    <script src="Appointments/js/appointment_event_controller.js"></script>
+    <script src="Serv/js/service_event_controller.js"></script>
+    <script src="Profile/js/profile_event_controller.js"></script>
 </body>
 </html>
